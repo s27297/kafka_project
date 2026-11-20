@@ -1,12 +1,19 @@
+### send json
 POST http://localhost:8081/json/producer/produce
 Content-Type: application/json
 
 {
-  "id": 208,
+  "id": 1,
   "color": "black",
   "name": "Barcik",
   "age": 1
 }
 
-###
+### send string
 GET http://localhost:8081/producer/produce/string?message=cat in Poland7
+
+### show list of all sended jsons
+GET http://localhost:8081/consumer/jsons
+
+### show list of all sended strings
+GET http://localhost:8081/consumer/
