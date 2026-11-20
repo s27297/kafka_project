@@ -1,0 +1,2254 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "demo",
+        "directory": "C:\\Users\\anako\\Downloads\\demo",
+        "workspaceDir": "C:\\Users\\anako\\Downloads\\demo",
+        "sources": [
+            "C:\\Users\\anako\\Downloads\\demo\\src\\main\\java"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\anako\\Downloads\\demo\\target\\classes",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-kafka\\4.1.2\\spring-boot-starter-kafka-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter\\4.1.2\\spring-boot-starter-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-logging\\4.1.2\\spring-boot-starter-logging-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.5.38\\logback-classic-1.5.38.jar",
+            "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.5.38\\logback-core-1.5.38.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-to-slf4j\\2.25.5\\log4j-to-slf4j-2.25.5.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\jul-to-slf4j\\2.0.20\\jul-to-slf4j-2.0.20.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-autoconfigure\\4.1.2\\spring-boot-autoconfigure-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\jakarta\\annotation\\jakarta.annotation-api\\3.0.0\\jakarta.annotation-api-3.0.0.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\yaml\\snakeyaml\\2.6\\snakeyaml-2.6.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-kafka\\4.1.2\\spring-boot-kafka-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot\\4.1.2\\spring-boot-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-transaction\\4.1.2\\spring-boot-transaction-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-persistence\\4.1.2\\spring-boot-persistence-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-tx\\7.0.10\\spring-tx-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\kafka\\spring-kafka\\4.1.2\\spring-kafka-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-messaging\\7.0.10\\spring-messaging-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-clients\\4.2.2\\kafka-clients-4.2.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-observation\\1.17.2\\micrometer-observation-1.17.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-commons\\1.17.2\\micrometer-commons-1.17.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-webmvc\\4.1.2\\spring-boot-starter-webmvc-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-jackson\\4.1.2\\spring-boot-starter-jackson-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-jackson\\4.1.2\\spring-boot-jackson-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-databind\\3.1.7\\jackson-databind-3.1.7.jar",
+            "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-core\\3.1.7\\jackson-core-3.1.7.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat\\4.1.2\\spring-boot-starter-tomcat-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat-runtime\\4.1.2\\spring-boot-starter-tomcat-runtime-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-core\\11.0.27\\tomcat-embed-core-11.0.27.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\11.0.27\\tomcat-embed-el-11.0.27.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\11.0.27\\tomcat-embed-websocket-11.0.27.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-tomcat\\4.1.2\\spring-boot-tomcat-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-http-converter\\4.1.2\\spring-boot-http-converter-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-web\\7.0.10\\spring-web-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-beans\\7.0.10\\spring-beans-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc\\4.1.2\\spring-boot-webmvc-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-servlet\\4.1.2\\spring-boot-servlet-4.1.2.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-webmvc\\7.0.10\\spring-webmvc-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-aop\\7.0.10\\spring-aop-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-expression\\7.0.10\\spring-expression-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.21.7\\jackson-databind-2.21.7.jar",
+            "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.21\\jackson-annotations-2.21.jar",
+            "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.21.7\\jackson-core-2.21.7.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-core\\7.0.10\\spring-core-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\commons-logging\\commons-logging\\1.3.6\\commons-logging-1.3.6.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.20\\slf4j-api-2.0.20.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-context\\7.0.10\\spring-context-7.0.10.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.25.5\\log4j-api-2.25.5.jar",
+            "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-web-server\\4.1.2\\spring-boot-web-server-4.1.2.jar"
+        ],
+        "out": "C:\\Users\\anako\\Downloads\\demo\\target",
+        "classesDir": "C:\\Users\\anako\\Downloads\\demo\\target\\classes",
+        "resources": [
+            "C:\\Users\\anako\\Downloads\\demo\\src\\main\\resources\\application.properties"
+        ],
+        "java": {
+            "options": [
+                "-g",
+                "--release",
+                "21",
+                "-encoding",
+                "UTF-8"
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework",
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "utest.runner.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "mill.testng.TestNGFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    {
+                        "args": [
+                            "-v",
+                            "-a"
+                        ],
+                        "framework": {
+                            "names": [
+                                "com.novocode.junit.JUnitFramework"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Users\\anako\\.jdks\\jbr-21.0.8",
+                "options": [
+                    
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "classpath": [
+                "C:\\Users\\anako\\Downloads\\demo\\target\\classes",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-kafka\\4.1.2\\spring-boot-starter-kafka-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter\\4.1.2\\spring-boot-starter-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-logging\\4.1.2\\spring-boot-starter-logging-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.5.38\\logback-classic-1.5.38.jar",
+                "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.5.38\\logback-core-1.5.38.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-to-slf4j\\2.25.5\\log4j-to-slf4j-2.25.5.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\jul-to-slf4j\\2.0.20\\jul-to-slf4j-2.0.20.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-autoconfigure\\4.1.2\\spring-boot-autoconfigure-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\jakarta\\annotation\\jakarta.annotation-api\\3.0.0\\jakarta.annotation-api-3.0.0.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\yaml\\snakeyaml\\2.6\\snakeyaml-2.6.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-kafka\\4.1.2\\spring-boot-kafka-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot\\4.1.2\\spring-boot-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-transaction\\4.1.2\\spring-boot-transaction-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-persistence\\4.1.2\\spring-boot-persistence-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-tx\\7.0.10\\spring-tx-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\kafka\\spring-kafka\\4.1.2\\spring-kafka-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-messaging\\7.0.10\\spring-messaging-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-clients\\4.2.2\\kafka-clients-4.2.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-observation\\1.17.2\\micrometer-observation-1.17.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-commons\\1.17.2\\micrometer-commons-1.17.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-webmvc\\4.1.2\\spring-boot-starter-webmvc-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-jackson\\4.1.2\\spring-boot-starter-jackson-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-jackson\\4.1.2\\spring-boot-jackson-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-databind\\3.1.7\\jackson-databind-3.1.7.jar",
+                "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-core\\3.1.7\\jackson-core-3.1.7.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat\\4.1.2\\spring-boot-starter-tomcat-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat-runtime\\4.1.2\\spring-boot-starter-tomcat-runtime-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-core\\11.0.27\\tomcat-embed-core-11.0.27.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\11.0.27\\tomcat-embed-el-11.0.27.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\11.0.27\\tomcat-embed-websocket-11.0.27.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-tomcat\\4.1.2\\spring-boot-tomcat-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-http-converter\\4.1.2\\spring-boot-http-converter-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-web\\7.0.10\\spring-web-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-beans\\7.0.10\\spring-beans-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc\\4.1.2\\spring-boot-webmvc-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-servlet\\4.1.2\\spring-boot-servlet-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-webmvc\\7.0.10\\spring-webmvc-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-aop\\7.0.10\\spring-aop-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-expression\\7.0.10\\spring-expression-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.21.7\\jackson-databind-2.21.7.jar",
+                "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.21\\jackson-annotations-2.21.jar",
+                "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.21.7\\jackson-core-2.21.7.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-core\\7.0.10\\spring-core-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\commons-logging\\commons-logging\\1.3.6\\commons-logging-1.3.6.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.20\\slf4j-api-2.0.20.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-context\\7.0.10\\spring-context-7.0.10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.25.5\\log4j-api-2.25.5.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-web-server\\4.1.2\\spring-boot-web-server-4.1.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\com\\github\\luben\\zstd-jni\\1.5.6-10\\zstd-jni-1.5.6-10.jar",
+                "C:\\Users\\anako\\.m2\\repository\\at\\yawk\\lz4\\lz4-java\\1.11.2\\lz4-java-1.11.2.jar",
+                "C:\\Users\\anako\\.m2\\repository\\org\\xerial\\snappy\\snappy-java\\1.1.10.7\\snappy-java-1.1.10.7.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.apache.tomcat.embed",
+                    "name": "tomcat-embed-el",
+                    "version": "11.0.27",
+                    "artifacts": [
+                        {
+                            "name": "tomcat-embed-el",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\11.0.27\\tomcat-embed-el-11.0.27.jar"
+                        },
+                        {
+                            "name": "tomcat-embed-el",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-el\\11.0.27\\tomcat-embed-el-11.0.27-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-jackson",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-jackson",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-jackson\\4.1.2\\spring-boot-jackson-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-jackson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-jackson\\4.1.2\\spring-boot-jackson-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-resttestclient",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-resttestclient",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-resttestclient\\4.1.2\\spring-boot-resttestclient-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-resttestclient",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-resttestclient\\4.1.2\\spring-boot-resttestclient-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-tomcat",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-tomcat",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat\\4.1.2\\spring-boot-starter-tomcat-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-tomcat",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat\\4.1.2\\spring-boot-starter-tomcat-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-streams",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-streams",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-streams\\4.2.2\\kafka-streams-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-streams",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-streams\\4.2.2\\kafka-streams-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-web",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-web",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-web\\7.0.10\\spring-web-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-web",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-web\\7.0.10\\spring-web-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-streams-test-utils",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-streams-test-utils",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-streams-test-utils\\4.2.2\\kafka-streams-test-utils-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-streams-test-utils",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-streams-test-utils\\4.2.2\\kafka-streams-test-utils-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-kafka",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-kafka",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-kafka\\4.1.2\\spring-boot-kafka-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-kafka",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-kafka\\4.1.2\\spring-boot-kafka-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "3.0.0",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\jakarta\\annotation\\jakarta.annotation-api\\3.0.0\\jakarta.annotation-api-3.0.0.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\jakarta\\annotation\\jakarta.annotation-api\\3.0.0\\jakarta.annotation-api-3.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.re2j",
+                    "name": "re2j",
+                    "version": "1.8",
+                    "artifacts": [
+                        {
+                            "name": "re2j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\google\\re2j\\re2j\\1.8\\re2j-1.8.jar"
+                        },
+                        {
+                            "name": "re2j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\google\\re2j\\re2j\\1.8\\re2j-1.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.ben-manes.caffeine",
+                    "name": "caffeine",
+                    "version": "3.2.4",
+                    "artifacts": [
+                        {
+                            "name": "caffeine",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\github\\ben-manes\\caffeine\\caffeine\\3.2.4\\caffeine-3.2.4.jar"
+                        },
+                        {
+                            "name": "caffeine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\github\\ben-manes\\caffeine\\caffeine\\3.2.4\\caffeine-3.2.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-webmvc-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-webmvc-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc-test\\4.1.2\\spring-boot-webmvc-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-webmvc-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc-test\\4.1.2\\spring-boot-webmvc-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-core",
+                    "version": "5.23.0",
+                    "artifacts": [
+                        {
+                            "name": "mockito-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\mockito\\mockito-core\\5.23.0\\mockito-core-5.23.0.jar"
+                        },
+                        {
+                            "name": "mockito-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\mockito\\mockito-core\\5.23.0\\mockito-core-5.23.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-messaging",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-messaging",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-messaging\\7.0.10\\spring-messaging-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-messaging",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-messaging\\7.0.10\\spring-messaging-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "accessors-smart",
+                    "version": "2.6.0",
+                    "artifacts": [
+                        {
+                            "name": "accessors-smart",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\minidev\\accessors-smart\\2.6.0\\accessors-smart-2.6.0.jar"
+                        },
+                        {
+                            "name": "accessors-smart",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\minidev\\accessors-smart\\2.6.0\\accessors-smart-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.jayway.jsonpath",
+                    "name": "json-path",
+                    "version": "2.10.0",
+                    "artifacts": [
+                        {
+                            "name": "json-path",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\jayway\\jsonpath\\json-path\\2.10.0\\json-path-2.10.0.jar"
+                        },
+                        {
+                            "name": "json-path",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\jayway\\jsonpath\\json-path\\2.10.0\\json-path-2.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sourceforge.argparse4j",
+                    "name": "argparse4j",
+                    "version": "0.7.0",
+                    "artifacts": [
+                        {
+                            "name": "argparse4j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\sourceforge\\argparse4j\\argparse4j\\0.7.0\\argparse4j-0.7.0.jar"
+                        },
+                        {
+                            "name": "argparse4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\sourceforge\\argparse4j\\argparse4j\\0.7.0\\argparse4j-0.7.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-group-coordinator-api",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-group-coordinator-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-group-coordinator-api\\4.2.2\\kafka-group-coordinator-api-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-group-coordinator-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-group-coordinator-api\\4.2.2\\kafka-group-coordinator-api-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.dataformat",
+                    "name": "jackson-dataformat-yaml",
+                    "version": "2.21.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-dataformat-yaml",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-yaml\\2.21.7\\jackson-dataformat-yaml-2.21.7.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-yaml",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-yaml\\2.21.7\\jackson-dataformat-yaml-2.21.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-collections",
+                    "name": "commons-collections",
+                    "version": "3.2.2",
+                    "artifacts": [
+                        {
+                            "name": "commons-collections",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2.jar"
+                        },
+                        {
+                            "name": "commons-collections",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-collections\\commons-collections\\3.2.2\\commons-collections-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-engine",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-engine",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\platform\\junit-platform-engine\\6.0.3\\junit-platform-engine-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-platform-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\platform\\junit-platform-engine\\6.0.3\\junit-platform-engine-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-commons",
+                    "version": "1.17.2",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-commons",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-commons\\1.17.2\\micrometer-commons-1.17.2.jar"
+                        },
+                        {
+                            "name": "micrometer-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-commons\\1.17.2\\micrometer-commons-1.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter\\6.0.3\\junit-jupiter-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-jupiter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter\\6.0.3\\junit-jupiter-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.datatype",
+                    "name": "jackson-datatype-jdk8",
+                    "version": "2.21.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.21.7\\jackson-datatype-jdk8-2.21.7.jar"
+                        },
+                        {
+                            "name": "jackson-datatype-jdk8",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\datatype\\jackson-datatype-jdk8\\2.21.7\\jackson-datatype-jdk8-2.21.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "at.yawk.lz4",
+                    "name": "lz4-java",
+                    "version": "1.11.2",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\at\\yawk\\lz4\\lz4-java\\1.11.2\\lz4-java-1.11.2.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\at\\yawk\\lz4\\lz4-java\\1.11.2\\lz4-java-1.11.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-clients",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-clients",
+                            "classifier": "test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-clients\\4.2.2\\kafka-clients-4.2.2-test.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.21",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.21\\jackson-annotations-2.21.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-annotations\\2.21\\jackson-annotations-2.21-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-test",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-test\\7.0.10\\spring-test-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-test\\7.0.10\\spring-test-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.objenesis",
+                    "name": "objenesis",
+                    "version": "3.3",
+                    "artifacts": [
+                        {
+                            "name": "objenesis",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\objenesis\\objenesis\\3.3\\objenesis-3.3.jar"
+                        },
+                        {
+                            "name": "objenesis",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\objenesis\\objenesis\\3.3\\objenesis-3.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-commons",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-commons",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\platform\\junit-platform-commons\\6.0.3\\junit-platform-commons-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-platform-commons",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\platform\\junit-platform-commons\\6.0.3\\junit-platform-commons-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.assertj",
+                    "name": "assertj-core",
+                    "version": "3.27.7",
+                    "artifacts": [
+                        {
+                            "name": "assertj-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\assertj\\assertj-core\\3.27.7\\assertj-core-3.27.7.jar"
+                        },
+                        {
+                            "name": "assertj-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\assertj\\assertj-core\\3.27.7\\assertj-core-3.27.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.bitbucket.b_c",
+                    "name": "jose4j",
+                    "version": "0.9.6",
+                    "artifacts": [
+                        {
+                            "name": "jose4j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\bitbucket\\b_c\\jose4j\\0.9.6\\jose4j-0.9.6.jar"
+                        },
+                        {
+                            "name": "jose4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\bitbucket\\b_c\\jose4j\\0.9.6\\jose4j-0.9.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hamcrest",
+                    "name": "hamcrest",
+                    "version": "3.0",
+                    "artifacts": [
+                        {
+                            "name": "hamcrest",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\hamcrest\\hamcrest\\3.0\\hamcrest-3.0.jar"
+                        },
+                        {
+                            "name": "hamcrest",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\hamcrest\\hamcrest\\3.0\\hamcrest-3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-webmvc-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-webmvc-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-webmvc-test\\4.1.2\\spring-boot-starter-webmvc-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-webmvc-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-webmvc-test\\4.1.2\\spring-boot-starter-webmvc-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-params",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-params",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-params\\6.0.3\\junit-jupiter-params-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-params",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-params\\6.0.3\\junit-jupiter-params-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-digester",
+                    "name": "commons-digester",
+                    "version": "2.1",
+                    "artifacts": [
+                        {
+                            "name": "commons-digester",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-digester\\commons-digester\\2.1\\commons-digester-2.1.jar"
+                        },
+                        {
+                            "name": "commons-digester",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-digester\\commons-digester\\2.1\\commons-digester-2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apiguardian",
+                    "name": "apiguardian-api",
+                    "version": "1.1.2",
+                    "artifacts": [
+                        {
+                            "name": "apiguardian-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2.jar"
+                        },
+                        {
+                            "name": "apiguardian-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apiguardian\\apiguardian-api\\1.1.2\\apiguardian-api-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka_2.13",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka_2.13",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka_2.13\\4.2.2\\kafka_2.13-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka_2.13\\4.2.2\\kafka_2.13-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.platform",
+                    "name": "junit-platform-launcher",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-platform-launcher",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\platform\\junit-platform-launcher\\6.0.3\\junit-platform-launcher-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-platform-launcher",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\platform\\junit-platform-launcher\\6.0.3\\junit-platform-launcher-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-web-server",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-web-server",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-web-server\\4.1.2\\spring-boot-web-server-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-web-server",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-web-server\\4.1.2\\spring-boot-web-server-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-coordinator-common",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-coordinator-common",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-coordinator-common\\4.2.2\\kafka-coordinator-common-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-coordinator-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-coordinator-common\\4.2.2\\kafka-coordinator-common-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.3.6",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-logging\\commons-logging\\1.3.6\\commons-logging-1.3.6.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-logging\\commons-logging\\1.3.6\\commons-logging-1.3.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-context",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-context",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-context\\7.0.10\\spring-context-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-context",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-context\\7.0.10\\spring-context-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-metadata",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-metadata",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-metadata\\4.2.2\\kafka-metadata-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-metadata",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-metadata\\4.2.2\\kafka-metadata-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-core",
+                    "version": "2.25.5",
+                    "artifacts": [
+                        {
+                            "name": "log4j-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-core\\2.25.5\\log4j-core-2.25.5.jar"
+                        },
+                        {
+                            "name": "log4j-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-core\\2.25.5\\log4j-core-2.25.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-clients",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-clients",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-clients\\4.2.2\\kafka-clients-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-clients",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-clients\\4.2.2\\kafka-clients-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.vaadin.external.google",
+                    "name": "android-json",
+                    "version": "0.0.20131108.vaadin1",
+                    "artifacts": [
+                        {
+                            "name": "android-json",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\vaadin\\external\\google\\android-json\\0.0.20131108.vaadin1\\android-json-0.0.20131108.vaadin1.jar"
+                        },
+                        {
+                            "name": "android-json",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\vaadin\\external\\google\\android-json\\0.0.20131108.vaadin1\\android-json-0.0.20131108.vaadin1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-aop",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-aop",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-aop\\7.0.10\\spring-aop-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-aop",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-aop\\7.0.10\\spring-aop-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-api",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-api\\6.0.3\\junit-jupiter-api-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-api\\6.0.3\\junit-jupiter-api-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter\\4.1.2\\spring-boot-starter-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter\\4.1.2\\spring-boot-starter-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "2.0.20",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.20\\slf4j-api-2.0.20.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\slf4j-api\\2.0.20\\slf4j-api-2.0.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.tomcat.embed",
+                    "name": "tomcat-embed-core",
+                    "version": "11.0.27",
+                    "artifacts": [
+                        {
+                            "name": "tomcat-embed-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-core\\11.0.27\\tomcat-embed-core-11.0.27.jar"
+                        },
+                        {
+                            "name": "tomcat-embed-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-core\\11.0.27\\tomcat-embed-core-11.0.27-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-logging",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-logging",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-logging\\4.1.2\\spring-boot-starter-logging-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-logging",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-logging\\4.1.2\\spring-boot-starter-logging-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.dataformat",
+                    "name": "jackson-dataformat-csv",
+                    "version": "2.21.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-dataformat-csv",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-csv\\2.21.7\\jackson-dataformat-csv-2.21.7.jar"
+                        },
+                        {
+                            "name": "jackson-dataformat-csv",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\dataformat\\jackson-dataformat-csv\\2.21.7\\jackson-dataformat-csv-2.21.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-kafka",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-kafka",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-kafka\\4.1.2\\spring-boot-starter-kafka-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-kafka",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-kafka\\4.1.2\\spring-boot-starter-kafka-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.luben",
+                    "name": "zstd-jni",
+                    "version": "1.5.6-10",
+                    "artifacts": [
+                        {
+                            "name": "zstd-jni",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\github\\luben\\zstd-jni\\1.5.6-10\\zstd-jni-1.5.6-10.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\github\\luben\\zstd-jni\\1.5.6-10\\zstd-jni-1.5.6-10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-servlet",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-servlet",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-servlet\\4.1.2\\spring-boot-servlet-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-servlet",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-servlet\\4.1.2\\spring-boot-servlet-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-kafka-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-kafka-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-kafka-test\\4.1.2\\spring-boot-starter-kafka-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-kafka-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-kafka-test\\4.1.2\\spring-boot-starter-kafka-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "jul-to-slf4j",
+                    "version": "2.0.20",
+                    "artifacts": [
+                        {
+                            "name": "jul-to-slf4j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\jul-to-slf4j\\2.0.20\\jul-to-slf4j-2.0.20.jar"
+                        },
+                        {
+                            "name": "jul-to-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\slf4j\\jul-to-slf4j\\2.0.20\\jul-to-slf4j-2.0.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_2.13",
+                    "version": "3.9.6",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_2.13",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.6\\scala-logging_2.13-3.9.6.jar"
+                        },
+                        {
+                            "name": "scala-logging_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\typesafe\\scala-logging\\scala-logging_2.13\\3.9.6\\scala-logging_2.13-3.9.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.junit.jupiter",
+                    "name": "junit-jupiter-engine",
+                    "version": "6.0.3",
+                    "artifacts": [
+                        {
+                            "name": "junit-jupiter-engine",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-engine\\6.0.3\\junit-jupiter-engine-6.0.3.jar"
+                        },
+                        {
+                            "name": "junit-jupiter-engine",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\junit\\jupiter\\junit-jupiter-engine\\6.0.3\\junit-jupiter-engine-6.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-validator",
+                    "name": "commons-validator",
+                    "version": "1.10.1",
+                    "artifacts": [
+                        {
+                            "name": "commons-validator",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-validator\\commons-validator\\1.10.1\\commons-validator-1.10.1.jar"
+                        },
+                        {
+                            "name": "commons-validator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-validator\\commons-validator\\1.10.1\\commons-validator-1.10.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.sf.jopt-simple",
+                    "name": "jopt-simple",
+                    "version": "5.0.4",
+                    "artifacts": [
+                        {
+                            "name": "jopt-simple",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\sf\\jopt-simple\\jopt-simple\\5.0.4\\jopt-simple-5.0.4.jar"
+                        },
+                        {
+                            "name": "jopt-simple",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\sf\\jopt-simple\\jopt-simple\\5.0.4\\jopt-simple-5.0.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.mockito",
+                    "name": "mockito-junit-jupiter",
+                    "version": "5.23.0",
+                    "artifacts": [
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\mockito\\mockito-junit-jupiter\\5.23.0\\mockito-junit-jupiter-5.23.0.jar"
+                        },
+                        {
+                            "name": "mockito-junit-jupiter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\mockito\\mockito-junit-jupiter\\5.23.0\\mockito-junit-jupiter-5.23.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-tools-api",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-tools-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-tools-api\\4.2.2\\kafka-tools-api-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-tools-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-tools-api\\4.2.2\\kafka-tools-api-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "tools.jackson.core",
+                    "name": "jackson-core",
+                    "version": "3.1.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-core\\3.1.7\\jackson-core-3.1.7.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-core\\3.1.7\\jackson-core-3.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.21.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.21.7\\jackson-databind-2.21.7.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-databind\\2.21.7\\jackson-databind-2.21.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-storage-api",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-storage-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-storage-api\\4.2.2\\kafka-storage-api-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-storage-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-storage-api\\4.2.2\\kafka-storage-api-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-share-coordinator",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-share-coordinator",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-share-coordinator\\4.2.2\\kafka-share-coordinator-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-share-coordinator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-share-coordinator\\4.2.2\\kafka-share-coordinator-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.21.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.21.7\\jackson-core-2.21.7.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\fasterxml\\jackson\\core\\jackson-core\\2.21.7\\jackson-core-2.21.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.activation",
+                    "name": "jakarta.activation-api",
+                    "version": "2.1.4",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\jakarta\\activation\\jakarta.activation-api\\2.1.4\\jakarta.activation-api-2.1.4.jar"
+                        },
+                        {
+                            "name": "jakarta.activation-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\jakarta\\activation\\jakarta.activation-api\\2.1.4\\jakarta.activation-api-2.1.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jspecify",
+                    "name": "jspecify",
+                    "version": "1.0.1",
+                    "artifacts": [
+                        {
+                            "name": "jspecify",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1.jar"
+                        },
+                        {
+                            "name": "jspecify",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\jspecify\\jspecify\\1.0.1\\jspecify-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "1.5.38",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.5.38\\logback-classic-1.5.38.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-classic\\1.5.38\\logback-classic-1.5.38-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-test-common-runtime",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-test-common-runtime",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-test-common-runtime\\4.2.2\\kafka-test-common-runtime-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-test-common-runtime",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-test-common-runtime\\4.2.2\\kafka-test-common-runtime-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.5.38",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.5.38\\logback-core-1.5.38.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\ch\\qos\\logback\\logback-core\\1.5.38\\logback-core-1.5.38-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.micrometer",
+                    "name": "micrometer-observation",
+                    "version": "1.17.2",
+                    "artifacts": [
+                        {
+                            "name": "micrometer-observation",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-observation\\1.17.2\\micrometer-observation-1.17.2.jar"
+                        },
+                        {
+                            "name": "micrometer-observation",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\io\\micrometer\\micrometer-observation\\1.17.2\\micrometer-observation-1.17.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-persistence",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-persistence",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-persistence\\4.1.2\\spring-boot-persistence-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-persistence",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-persistence\\4.1.2\\spring-boot-persistence-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-beans",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-beans",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-beans\\7.0.10\\spring-beans-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-beans",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-beans\\7.0.10\\spring-beans-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.pcollections",
+                    "name": "pcollections",
+                    "version": "4.0.2",
+                    "artifacts": [
+                        {
+                            "name": "pcollections",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\pcollections\\pcollections\\4.0.2\\pcollections-4.0.2.jar"
+                        },
+                        {
+                            "name": "pcollections",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\pcollections\\pcollections\\4.0.2\\pcollections-4.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-tomcat-runtime",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-tomcat-runtime",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat-runtime\\4.1.2\\spring-boot-starter-tomcat-runtime-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-tomcat-runtime",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-tomcat-runtime\\4.1.2\\spring-boot-starter-tomcat-runtime-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.hdrhistogram",
+                    "name": "HdrHistogram",
+                    "version": "2.2.2",
+                    "artifacts": [
+                        {
+                            "name": "HdrHistogram",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\hdrhistogram\\HdrHistogram\\2.2.2\\HdrHistogram-2.2.2.jar"
+                        },
+                        {
+                            "name": "HdrHistogram",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\hdrhistogram\\HdrHistogram\\2.2.2\\HdrHistogram-2.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-server-common",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-server-common",
+                            "classifier": "test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-server-common\\4.2.2\\kafka-server-common-4.2.2-test.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.kafka",
+                    "name": "spring-kafka",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-kafka",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\kafka\\spring-kafka\\4.1.2\\spring-kafka-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-kafka",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\kafka\\spring-kafka\\4.1.2\\spring-kafka-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-group-coordinator",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-group-coordinator",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-group-coordinator\\4.2.2\\kafka-group-coordinator-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-group-coordinator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-group-coordinator\\4.2.2\\kafka-group-coordinator-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-http-converter",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-http-converter",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-http-converter\\4.1.2\\spring-boot-http-converter-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-http-converter",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-http-converter\\4.1.2\\spring-boot-http-converter-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-test-autoconfigure",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-test-autoconfigure",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-test-autoconfigure\\4.1.2\\spring-boot-test-autoconfigure-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-test-autoconfigure",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-test-autoconfigure\\4.1.2\\spring-boot-test-autoconfigure-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-tomcat",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-tomcat",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-tomcat\\4.1.2\\spring-boot-tomcat-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-tomcat",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-tomcat\\4.1.2\\spring-boot-tomcat-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-test-common-internal-api",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-test-common-internal-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-test-common-internal-api\\4.2.2\\kafka-test-common-internal-api-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-test-common-internal-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-test-common-internal-api\\4.2.2\\kafka-test-common-internal-api-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.tomcat.embed",
+                    "name": "tomcat-embed-websocket",
+                    "version": "11.0.27",
+                    "artifacts": [
+                        {
+                            "name": "tomcat-embed-websocket",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\11.0.27\\tomcat-embed-websocket-11.0.27.jar"
+                        },
+                        {
+                            "name": "tomcat-embed-websocket",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\tomcat\\embed\\tomcat-embed-websocket\\11.0.27\\tomcat-embed-websocket-11.0.27-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy-agent",
+                    "version": "1.18.15",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy-agent",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\bytebuddy\\byte-buddy-agent\\1.18.15\\byte-buddy-agent-1.18.15.jar"
+                        },
+                        {
+                            "name": "byte-buddy-agent",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\bytebuddy\\byte-buddy-agent\\1.18.15\\byte-buddy-agent-1.18.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-server-common",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-server-common",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-server-common\\4.2.2\\kafka-server-common-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-server-common",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-server-common\\4.2.2\\kafka-server-common-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-jackson",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-jackson",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-jackson\\4.1.2\\spring-boot-starter-jackson-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-jackson",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-jackson\\4.1.2\\spring-boot-starter-jackson-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.yaml",
+                    "name": "snakeyaml",
+                    "version": "2.6",
+                    "artifacts": [
+                        {
+                            "name": "snakeyaml",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\yaml\\snakeyaml\\2.6\\snakeyaml-2.6.jar"
+                        },
+                        {
+                            "name": "snakeyaml",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\yaml\\snakeyaml\\2.6\\snakeyaml-2.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-test\\4.1.2\\spring-boot-starter-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-test\\4.1.2\\spring-boot-starter-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-server",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-server",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-server\\4.2.2\\kafka-server-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-server",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-server\\4.2.2\\kafka-server-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.bytebuddy",
+                    "name": "byte-buddy",
+                    "version": "1.18.15",
+                    "artifacts": [
+                        {
+                            "name": "byte-buddy",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\bytebuddy\\byte-buddy\\1.18.15\\byte-buddy-1.18.15.jar"
+                        },
+                        {
+                            "name": "byte-buddy",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\bytebuddy\\byte-buddy\\1.18.15\\byte-buddy-1.18.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-webmvc",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-webmvc",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-webmvc\\7.0.10\\spring-webmvc-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-webmvc",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-webmvc\\7.0.10\\spring-webmvc-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-tx",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-tx",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-tx\\7.0.10\\spring-tx-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-tx",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-tx\\7.0.10\\spring-tx-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.opentest4j",
+                    "name": "opentest4j",
+                    "version": "1.3.0",
+                    "artifacts": [
+                        {
+                            "name": "opentest4j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\opentest4j\\opentest4j\\1.3.0\\opentest4j-1.3.0.jar"
+                        },
+                        {
+                            "name": "opentest4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\opentest4j\\opentest4j\\1.3.0\\opentest4j-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-raft",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-raft",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-raft\\4.2.2\\kafka-raft-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-raft",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-raft\\4.2.2\\kafka-raft-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-core",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-core\\7.0.10\\spring-core-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-core\\7.0.10\\spring-core-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.xml.bind",
+                    "name": "jakarta.xml.bind-api",
+                    "version": "4.0.5",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\jakarta\\xml\\bind\\jakarta.xml.bind-api\\4.0.5\\jakarta.xml.bind-api-4.0.5.jar"
+                        },
+                        {
+                            "name": "jakarta.xml.bind-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\jakarta\\xml\\bind\\jakarta.xml.bind-api\\4.0.5\\jakarta.xml.bind-api-4.0.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-transaction-coordinator",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-transaction-coordinator",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-transaction-coordinator\\4.2.2\\kafka-transaction-coordinator-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-transaction-coordinator",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-transaction-coordinator\\4.2.2\\kafka-transaction-coordinator-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-storage",
+                    "version": "4.2.2",
+                    "artifacts": [
+                        {
+                            "name": "kafka-storage",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-storage\\4.2.2\\kafka-storage-4.2.2.jar"
+                        },
+                        {
+                            "name": "kafka-storage",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\kafka\\kafka-storage\\4.2.2\\kafka-storage-4.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-webmvc",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-webmvc",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-webmvc\\4.1.2\\spring-boot-starter-webmvc-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-webmvc",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-webmvc\\4.1.2\\spring-boot-starter-webmvc-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-test\\4.1.2\\spring-boot-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-test\\4.1.2\\spring-boot-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.awaitility",
+                    "name": "awaitility",
+                    "version": "4.3.0",
+                    "artifacts": [
+                        {
+                            "name": "awaitility",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\awaitility\\awaitility\\4.3.0\\awaitility-4.3.0.jar"
+                        },
+                        {
+                            "name": "awaitility",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\awaitility\\awaitility\\4.3.0\\awaitility-4.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-autoconfigure",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-autoconfigure\\4.1.2\\spring-boot-autoconfigure-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-autoconfigure",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-autoconfigure\\4.1.2\\spring-boot-autoconfigure-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-beanutils",
+                    "name": "commons-beanutils",
+                    "version": "1.11.0",
+                    "artifacts": [
+                        {
+                            "name": "commons-beanutils",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-beanutils\\commons-beanutils\\1.11.0\\commons-beanutils-1.11.0.jar"
+                        },
+                        {
+                            "name": "commons-beanutils",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\commons-beanutils\\commons-beanutils\\1.11.0\\commons-beanutils-1.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "tools.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "3.1.7",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-databind\\3.1.7\\jackson-databind-3.1.7.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\tools\\jackson\\core\\jackson-databind\\3.1.7\\jackson-databind-3.1.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.skyscreamer",
+                    "name": "jsonassert",
+                    "version": "1.5.3",
+                    "artifacts": [
+                        {
+                            "name": "jsonassert",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\skyscreamer\\jsonassert\\1.5.3\\jsonassert-1.5.3.jar"
+                        },
+                        {
+                            "name": "jsonassert",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\skyscreamer\\jsonassert\\1.5.3\\jsonassert-1.5.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.rocksdb",
+                    "name": "rocksdbjni",
+                    "version": "10.1.3",
+                    "artifacts": [
+                        {
+                            "name": "rocksdbjni",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\rocksdb\\rocksdbjni\\10.1.3\\rocksdbjni-10.1.3.jar"
+                        },
+                        {
+                            "name": "rocksdbjni",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\rocksdb\\rocksdbjni\\10.1.3\\rocksdbjni-10.1.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.yammer.metrics",
+                    "name": "metrics-core",
+                    "version": "2.2.0",
+                    "artifacts": [
+                        {
+                            "name": "metrics-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\yammer\\metrics\\metrics-core\\2.2.0\\metrics-core-2.2.0.jar"
+                        },
+                        {
+                            "name": "metrics-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\yammer\\metrics\\metrics-core\\2.2.0\\metrics-core-2.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot\\4.1.2\\spring-boot-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot\\4.1.2\\spring-boot-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-api",
+                    "version": "2.25.5",
+                    "artifacts": [
+                        {
+                            "name": "log4j-api",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.25.5\\log4j-api-2.25.5.jar"
+                        },
+                        {
+                            "name": "log4j-api",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-api\\2.25.5\\log4j-api-2.25.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-webmvc",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-webmvc",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc\\4.1.2\\spring-boot-webmvc-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-webmvc",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-webmvc\\4.1.2\\spring-boot-webmvc-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.dynatrace.hash4j",
+                    "name": "hash4j",
+                    "version": "0.22.0",
+                    "artifacts": [
+                        {
+                            "name": "hash4j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\dynatrace\\hash4j\\hash4j\\0.22.0\\hash4j-0.22.0.jar"
+                        },
+                        {
+                            "name": "hash4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\com\\dynatrace\\hash4j\\hash4j\\0.22.0\\hash4j-0.22.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.kafka",
+                    "name": "spring-kafka-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-kafka-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\kafka\\spring-kafka-test\\4.1.2\\spring-kafka-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-kafka-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\kafka\\spring-kafka-test\\4.1.2\\spring-kafka-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xmlunit",
+                    "name": "xmlunit-core",
+                    "version": "2.11.0",
+                    "artifacts": [
+                        {
+                            "name": "xmlunit-core",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\xmlunit\\xmlunit-core\\2.11.0\\xmlunit-core-2.11.0.jar"
+                        },
+                        {
+                            "name": "xmlunit-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\xmlunit\\xmlunit-core\\2.11.0\\xmlunit-core-2.11.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-transaction",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-transaction",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-transaction\\4.1.2\\spring-boot-transaction-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-transaction",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-transaction\\4.1.2\\spring-boot-transaction-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.logging.log4j",
+                    "name": "log4j-to-slf4j",
+                    "version": "2.25.5",
+                    "artifacts": [
+                        {
+                            "name": "log4j-to-slf4j",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-to-slf4j\\2.25.5\\log4j-to-slf4j-2.25.5.jar"
+                        },
+                        {
+                            "name": "log4j-to-slf4j",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\apache\\logging\\log4j\\log4j-to-slf4j\\2.25.5\\log4j-to-slf4j-2.25.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.17",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.13.17\\scala-reflect-2.13.17.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\scala-lang\\scala-reflect\\2.13.17\\scala-reflect-2.13.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.ow2.asm",
+                    "name": "asm",
+                    "version": "9.7.1",
+                    "artifacts": [
+                        {
+                            "name": "asm",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\ow2\\asm\\asm\\9.7.1\\asm-9.7.1.jar"
+                        },
+                        {
+                            "name": "asm",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\ow2\\asm\\asm\\9.7.1\\asm-9.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.17",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.17\\scala-library-2.13.17.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\scala-lang\\scala-library\\2.13.17\\scala-library-2.13.17-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.minidev",
+                    "name": "json-smart",
+                    "version": "2.6.0",
+                    "artifacts": [
+                        {
+                            "name": "json-smart",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\minidev\\json-smart\\2.6.0\\json-smart-2.6.0.jar"
+                        },
+                        {
+                            "name": "json-smart",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\net\\minidev\\json-smart\\2.6.0\\json-smart-2.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework",
+                    "name": "spring-expression",
+                    "version": "7.0.10",
+                    "artifacts": [
+                        {
+                            "name": "spring-expression",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-expression\\7.0.10\\spring-expression-7.0.10.jar"
+                        },
+                        {
+                            "name": "spring-expression",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\spring-expression\\7.0.10\\spring-expression-7.0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.springframework.boot",
+                    "name": "spring-boot-starter-jackson-test",
+                    "version": "4.1.2",
+                    "artifacts": [
+                        {
+                            "name": "spring-boot-starter-jackson-test",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-jackson-test\\4.1.2\\spring-boot-starter-jackson-test-4.1.2.jar"
+                        },
+                        {
+                            "name": "spring-boot-starter-jackson-test",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\springframework\\boot\\spring-boot-starter-jackson-test\\4.1.2\\spring-boot-starter-jackson-test-4.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.1.10.7",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\xerial\\snappy\\snappy-java\\1.1.10.7\\snappy-java-1.1.10.7.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\anako\\.m2\\repository\\org\\xerial\\snappy\\snappy-java\\1.1.10.7\\snappy-java-1.1.10.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

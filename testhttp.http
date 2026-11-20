@@ -1,0 +1,12 @@
+POST http://localhost:8081/json/producer/produce
+Content-Type: application/json
+
+{
+  "id": 208,
+  "color": "black",
+  "name": "Barcik",
+  "age": 1
+}
+
+###
+GET http://localhost:8081/producer/produce/string?message=cat in Poland7
